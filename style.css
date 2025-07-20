@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f2027;
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game-container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .status {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin: 0 auto 20px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.2s;
+  }
+  
+  .cell:hover {
+    background-color: #ffffff40;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #00ffd5;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #00ccaa;
+  }
+  
+  .ui-elements {
+    margin-top: 30px;
+  }
+  
+  /* Gradient Circle */
+  .gradient-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #00ffd5 0%, transparent 70%);
+    margin: 20px auto;
+  }
+  
+  /* Monoline Icon */
+  .monoline-icon {
+    width: 60px;
+    height: 60px;
+    stroke: white;
+    fill: none;
+    margin: 0 auto;
+  }
+  
